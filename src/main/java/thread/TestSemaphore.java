@@ -1,7 +1,7 @@
-import java.util.ArrayList;
+package thread;
+
 import java.util.List;
 import java.util.Vector;
-import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Semaphore;
 
 public class TestSemaphore {

@@ -1,3 +1,5 @@
+package thread;
+
 public class TestInterrupted {
 
     public static void main(String[] args) {

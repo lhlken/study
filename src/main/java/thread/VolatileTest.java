@@ -1,3 +1,5 @@
+package thread;
+
 public class VolatileTest {
 
     long x = 0;
