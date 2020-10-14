@@ -9,9 +9,9 @@ public class TestSemaphore {
     public static void main(String[] args) {
 
         ObjectPool pool = new ObjectPool(2);
-        Thread t1 = new Thread(new TT(pool),"t1");
-        Thread t2 = new Thread(new TT(pool),"t2");
-        Thread t3 = new Thread(new TT(pool),"t3");
+        Thread t1 = new Thread(new TT1(pool),"t1");
+        Thread t2 = new Thread(new TT1(pool),"t2");
+        Thread t3 = new Thread(new TT1(pool),"t3");
 
         t1.start();
         t2.start();
@@ -21,11 +21,11 @@ public class TestSemaphore {
     }
 }
 
-class TT implements Runnable{
+class TT1 implements Runnable{
 
     private ObjectPool objectPool;
 
-    public TT(ObjectPool objectPool) {
+    public TT1(ObjectPool objectPool) {
         this.objectPool = objectPool;
     }
 

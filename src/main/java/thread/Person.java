@@ -1,3 +1,5 @@
+package thread;
+
 public class Person {
 
     volatile  int count;
@@ -37,7 +39,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "thread.Person{" +
                 "count=" + count +
                 ", id=" + id +
                 ", name='" + name + '\'' +

@@ -1,10 +1,8 @@
-import sun.misc.Contended;
 
 public class FalseSharing implements Runnable{
         public final static long ITERATIONS = 500L * 1000L * 100L;
         private int arrayIndex = 0;
 
-        @Contended
         private static ValueNoPadding[] longs;
         public FalseSharing(final int arrayIndex) {
             this.arrayIndex = arrayIndex;
@@ -54,7 +52,6 @@ public class FalseSharing implements Runnable{
         }
         public final static class ValueNoPadding {
 //             protected long p1, p2, p3,p4;
-            @Contended
             protected volatile long value = 0L;
 //             protected long p9, p10,p11;
         }
