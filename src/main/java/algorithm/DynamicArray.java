@@ -2,11 +2,8 @@ package algorithm;
 
 import com.alibaba.fastjson.JSON;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 /**
- * (类型功能说明描述)
+ * (动态扩容数组)
  *
  * <p>
  * 修改历史:											<br>
