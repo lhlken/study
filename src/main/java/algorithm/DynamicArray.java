@@ -74,17 +74,4 @@ public class DynamicArray<T extends Object> {
         return size;
     }
 
-    public static void main(String[] args) {
-        DynamicArray<Integer> ints = new DynamicArray<>();
-        for(int i = 0;i<100;i++) {
-            ints.add(i);
-        }
-        System.out.println(JSON.toJSONString(ints));
-        System.out.println(ints.get(0));
-        for(int i = 0;i<98;i++) {
-            ints.remove(1);
-        }
-        System.out.println(JSON.toJSONString(ints));
-    }
-
 }
