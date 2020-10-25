@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/8/25
  */
 public class Test {

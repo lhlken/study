@@ -1,7 +1,10 @@
+package thread;
+
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ExecutionException;
 import java.util.function.*;
+import java.util.function.Consumer;
 
 public class TestCompleteFuture {
 
@@ -176,7 +179,7 @@ public class TestCompleteFuture {
             }
         });
 
-        CompletableFuture f3 = f1.acceptEither(f2, new Consumer() {
+        CompletableFuture f3 = f1.acceptEither(f2, new java.util.function.Consumer() {
             /**
              * Performs this operation on the given argument.
              *

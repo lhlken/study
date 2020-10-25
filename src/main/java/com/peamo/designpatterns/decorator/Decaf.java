@@ -1,7 +1,7 @@
 package com.peamo.designpatterns.decorator;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/8/23
  */
 public class Decaf extends Beverage {

@@ -3,7 +3,7 @@ package com.peamo.designpatterns.thread;
 import com.peamo.designpatterns.Test;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/25
  */
 public class TestSyn {

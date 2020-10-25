@@ -3,7 +3,7 @@ package com.peamo.designpatterns.io;
 import java.io.*;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/23
  * 从磁盘读取一个文件到内存中，再打印到控制台
  */

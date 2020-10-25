@@ -3,7 +3,7 @@ package com.peamo.designpatterns.io;
 import java.io.File;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/23
  * 递归实现输入任意目录，列出文件以及文件夹，效果看图
  */

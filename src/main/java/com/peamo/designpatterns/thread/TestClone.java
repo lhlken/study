@@ -5,7 +5,7 @@ package com.peamo.designpatterns.thread;
 import java.io.*;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/26
  */
 public class TestClone{

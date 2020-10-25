@@ -1,7 +1,7 @@
 package com.peamo.designpatterns.factory;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/8/24
  */
 public class Test {

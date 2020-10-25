@@ -1,7 +1,7 @@
 package com.peamo.designpatterns.facade;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/8/30
  */
 public class DvdPlayer {

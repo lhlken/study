@@ -1,7 +1,7 @@
 package com.peamo.designpatterns.singleton;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/8/25
  */
 public enum SingletonEnum {

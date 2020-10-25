@@ -3,7 +3,7 @@ package com.peamo.designpatterns.reflex;
 import java.lang.reflect.*;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/22
  */
 public class Test {

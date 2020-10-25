@@ -1,7 +1,7 @@
 package com.peamo.designpatterns.thread;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/25
  */
 public class TestRun implements Runnable {

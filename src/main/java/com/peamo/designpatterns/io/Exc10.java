@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 import java.util.ArrayList;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/23
  * 使用随机文件流类RandomAccessFile将一个文本文件倒置读出。
  */

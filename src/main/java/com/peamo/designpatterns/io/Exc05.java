@@ -3,7 +3,7 @@ package com.peamo.designpatterns.io;
 import java.io.*;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/23
  * 在程序中写一个"HelloJavaWorld你好世界"输出到操作系统文件Hello.txt文件中
  */

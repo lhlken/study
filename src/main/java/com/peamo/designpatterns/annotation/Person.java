@@ -1,7 +1,7 @@
 package com.peamo.designpatterns.annotation;
 
 /**
- * @author hualong.li
+ * @author hwalong
  * @date 2018/9/22
  */
 public class Person {

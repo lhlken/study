@@ -2,7 +2,7 @@ package com.peamo.designpatterns.singleton;
 
 /**
  * 双检锁/双重校验锁（DCL，即 double-checked locking）
- * @author hualong.li
+ * @author hwalong
  * @date 2018/8/25
  */
 public class SingletonDCL {
